@@ -35,8 +35,9 @@ SDK 主要提供以下功能：
 工程**Podfile**新增source 'https://github.com/thridparty-cloud2/QuecPublicSpecs.git', 使用 **CocoaPods** 集成 SDK：
 
 ```ruby
-pod 'QuecEsimManagerSdk', '~> 0.0.1'
-pod 'QuecPayKit/wechat', "2.0.0"
+pod 'QuecEsimManagerSdk', '0.0.2'
+pod 'QuecIpaSdk', '0.0.5'
+pod 'QuecPayKit/wechat', "1.1.4"
 ```
 
 安装完成后执行：
