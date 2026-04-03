@@ -1,0 +1,77 @@
+PODS:
+  - CocoaAsyncSocket (7.6.5)
+  - DoraemonKit (3.1.7):
+    - DoraemonKit/Core (= 3.1.7)
+  - DoraemonKit/Core (3.1.7):
+    - FMDB
+    - GCDWebServer
+    - GCDWebServer/WebDAV
+    - GCDWebServer/WebUploader
+  - FMDB (2.7.12):
+    - FMDB/standard (= 2.7.12)
+  - FMDB/Core (2.7.12)
+  - FMDB/standard (2.7.12):
+    - FMDB/Core
+  - GCDWebServer (3.5.4):
+    - GCDWebServer/Core (= 3.5.4)
+  - GCDWebServer/Core (3.5.4)
+  - GCDWebServer/WebDAV (3.5.4):
+    - GCDWebServer/Core
+  - GCDWebServer/WebUploader (3.5.4):
+    - GCDWebServer/Core
+  - QuecEsimManagerSdk (0.0.2):
+    - QuecFoundationKit
+    - QuecIpaSdk
+    - QuecLogKit
+    - QuecPayKit
+  - QuecFoundationKit (1.0.4)
+  - QuecIpaSdk (0.0.5):
+    - QuecFoundationKit
+    - QuecLogKit
+  - QuecLogKit (2.1.0)
+  - QuecPayKit (1.1.4):
+    - QuecPayKit/default (= 1.1.4)
+  - QuecPayKit/common (1.1.4)
+  - QuecPayKit/default (1.1.4):
+    - QuecPayKit/common
+  - QuecPayKit/wechat (1.1.4):
+    - QuecPayKit/common
+    - WechatOpenSDK-XCFramework
+  - WechatOpenSDK-XCFramework (2.0.5)
+
+DEPENDENCIES:
+  - CocoaAsyncSocket (~> 7.6.5)
+  - DoraemonKit
+  - QuecEsimManagerSdk (= 0.0.2)
+  - QuecIpaSdk (= 0.0.5)
+  - QuecPayKit/wechat (= 1.1.4)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CocoaAsyncSocket
+    - DoraemonKit
+    - FMDB
+    - GCDWebServer
+    - WechatOpenSDK-XCFramework
+  https://github.com/thridparty-cloud2/QuecPublicSpecs.git:
+    - QuecEsimManagerSdk
+    - QuecFoundationKit
+    - QuecIpaSdk
+    - QuecLogKit
+    - QuecPayKit
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  DoraemonKit: 0b45c9dc6ab34bd426a2782ee1bf7ab13492a60b
+  FMDB: 728731dd336af3936ce00f91d9d8495f5718a0e6
+  GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
+  QuecEsimManagerSdk: bf43ad129832b6931a3247f027e19ff33b076bc8
+  QuecFoundationKit: 43962fe900d8722ccd606fee90b0c4e98287a244
+  QuecIpaSdk: 7f7642827cbe67dca77375288cc6c55031a1ddfc
+  QuecLogKit: 4307cb5aada565905a300a0592b258239231865b
+  QuecPayKit: f095bd6592089418838f03260be6fef7f5306618
+  WechatOpenSDK-XCFramework: ff342ae616bb86df3d236aca38059dfd4bc4a949
+
+PODFILE CHECKSUM: 15d3ca1ed3b1cfa9e3505213d201cb0ddfcacb9f
+
+COCOAPODS: 1.16.0
