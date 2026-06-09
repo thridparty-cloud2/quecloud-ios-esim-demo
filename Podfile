@@ -9,8 +9,8 @@ target 'QuectelEsimDemo' do
   
   # Pods for QuectelEsimDemo
   pod 'CocoaAsyncSocket', '~> 7.6.5'
-  pod 'QuecIpaSdk', '0.0.5'
-  pod 'QuecEsimManagerSdk', '0.0.2'
+  pod 'QuecIpaSdk', '0.0.6'
+  pod 'QuecEsimManagerSdk', '0.0.4'
   pod 'QuecPayKit/wechat', "1.1.4"
   pod 'DoraemonKit'
 

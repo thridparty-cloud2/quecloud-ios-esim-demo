@@ -273,6 +273,10 @@ extension QuecEsimTestViewController: QuecEsimApduDelegate {
             completion(true)
         }
     }
+    
+    func onInteractionAction(_ action: QuecEsimAction) {
+        print("action: \(action)")
+    }
 }
 
 extension QuecEsimTestViewController: QuecSocketDelegate {
