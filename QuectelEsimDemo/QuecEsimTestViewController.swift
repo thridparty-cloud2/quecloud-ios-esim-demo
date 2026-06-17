@@ -10,6 +10,7 @@ import Network
 import WebKit
 import QuecEsimManagerSdk
 import QuecIpaSdk
+import QuecPayKit
 
 @objc class QuecEsimTestViewController: UIViewController {
 

@@ -29,12 +29,12 @@ PODS:
     - QuecFoundationKit
     - QuecLogKit
   - QuecLogKit (2.1.0)
-  - QuecPayKit (1.1.5):
-    - QuecPayKit/default (= 1.1.5)
-  - QuecPayKit/common (1.1.5)
-  - QuecPayKit/default (1.1.5):
+  - QuecPayKit (1.1.6):
+    - QuecPayKit/default (= 1.1.6)
+  - QuecPayKit/common (1.1.6)
+  - QuecPayKit/default (1.1.6):
     - QuecPayKit/common
-  - QuecPayKit/WechatNoSDK (1.1.5):
+  - QuecPayKit/WechatNoSDK (1.1.6):
     - QuecPayKit/common
   - WechatOpenSDK-XCFramework (2.0.4)
 
@@ -43,7 +43,7 @@ DEPENDENCIES:
   - DoraemonKit
   - QuecEsimManagerSdk (= 0.0.4)
   - QuecIpaSdk (= 0.0.6)
-  - QuecPayKit/WechatNoSDK (= 1.1.5)
+  - QuecPayKit/WechatNoSDK (= 1.1.6)
   - WechatOpenSDK-XCFramework (= 2.0.4)
 
 SPEC REPOS:
@@ -69,9 +69,9 @@ SPEC CHECKSUMS:
   QuecFoundationKit: 43962fe900d8722ccd606fee90b0c4e98287a244
   QuecIpaSdk: 3e6ff95e4e7935cc5590ed25e7c0ab6cc88eb9c5
   QuecLogKit: 4307cb5aada565905a300a0592b258239231865b
-  QuecPayKit: 59c1063c8c23bc4b593cd3b0f548ae6c679e17db
+  QuecPayKit: 37a9903ac133a35b5c5369e1dad702430a559ec1
   WechatOpenSDK-XCFramework: 36fb2bea0754266c17184adf4963d7e6ff98b69f
 
-PODFILE CHECKSUM: fed0db0d3ef0c1652c130f19f17f5801b97b7328
+PODFILE CHECKSUM: d5cbd1b1ac84bb82f3d9c4bf996827d031a9b259
 
 COCOAPODS: 1.16.0

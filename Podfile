@@ -13,7 +13,7 @@ target 'QuectelEsimDemo' do
   pod 'QuecEsimManagerSdk', '0.0.4'
   
   # WechatNoSDK excludes WeChat SDK dependency. The host project should integrate WeChat SDK separately.
-  pod 'QuecPayKit/WechatNoSDK', '1.1.5'
+  pod 'QuecPayKit/WechatNoSDK', '1.1.6'
   pod 'WechatOpenSDK-XCFramework', '2.0.4'
   pod 'DoraemonKit'
 
