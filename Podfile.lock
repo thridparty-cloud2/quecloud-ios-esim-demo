@@ -19,7 +19,7 @@ PODS:
     - GCDWebServer/Core
   - GCDWebServer/WebUploader (3.5.4):
     - GCDWebServer/Core
-  - QuecEsimManagerSdk (0.0.4):
+  - QuecEsimManagerSdk (0.0.5):
     - QuecFoundationKit
     - QuecIpaSdk
     - QuecLogKit
@@ -41,7 +41,7 @@ PODS:
 DEPENDENCIES:
   - CocoaAsyncSocket (~> 7.6.5)
   - DoraemonKit
-  - QuecEsimManagerSdk (= 0.0.4)
+  - QuecEsimManagerSdk (= 0.0.5)
   - QuecIpaSdk (= 0.0.6)
   - QuecPayKit/WechatNoSDK (= 1.1.6)
   - WechatOpenSDK-XCFramework (= 2.0.4)
@@ -65,13 +65,13 @@ SPEC CHECKSUMS:
   DoraemonKit: 0b45c9dc6ab34bd426a2782ee1bf7ab13492a60b
   FMDB: 728731dd336af3936ce00f91d9d8495f5718a0e6
   GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
-  QuecEsimManagerSdk: f58ccfc7281aaa2416d9a7252cae65d3b753292e
+  QuecEsimManagerSdk: 0cc9a32df3bebf266ca98d91c1d19d783436900a
   QuecFoundationKit: 43962fe900d8722ccd606fee90b0c4e98287a244
   QuecIpaSdk: 3e6ff95e4e7935cc5590ed25e7c0ab6cc88eb9c5
   QuecLogKit: 4307cb5aada565905a300a0592b258239231865b
   QuecPayKit: 37a9903ac133a35b5c5369e1dad702430a559ec1
   WechatOpenSDK-XCFramework: 36fb2bea0754266c17184adf4963d7e6ff98b69f
 
-PODFILE CHECKSUM: d5cbd1b1ac84bb82f3d9c4bf996827d031a9b259
+PODFILE CHECKSUM: 5898a7da72490055eb2501549d9b46a369154a2b
 
 COCOAPODS: 1.16.0
