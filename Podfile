@@ -9,7 +9,7 @@ target 'QuectelEsimDemo' do
   
   # Pods for QuectelEsimDemo
   pod 'CocoaAsyncSocket', '~> 7.6.5'
-  pod 'QuecIpaSdk', '0.0.6'
+  pod 'QuecIpaSdk', '0.0.7'
   pod 'QuecEsimManagerSdk', '0.0.5'
   
   # WechatNoSDK excludes WeChat SDK dependency. The host project should integrate WeChat SDK separately.
